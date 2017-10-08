@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WeekendProject2</string>
+    <string name="view_pdf">View PDF</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_dialog_fragment">Open Dialog Fragment</string>
+    <string name="open_alert">Open Alert</string>
+    <string name="open_alert_custom">Open Alert (Custom Layout)</string>
+    <string name="open_alert_list">Open Alert (List)</string>
+    <string name="custom_alert_title">Custom Alert Title</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="onions">Onions</string>
+    <string name="sausage">Sausage</string>
+    <string name="beef">Beef</string>
+    <string name="garlic">Garlic</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="notification_channel_name">Twisted Channel</string>
+    <string name="notification_channel_desc">Twisted Tyrants Custom Channel</string>
+    <string name="send_a_text">Send a Text</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="text">Text</string>
+    <string name="go_to_fragments">Go To Fragments</string>
+</resources>

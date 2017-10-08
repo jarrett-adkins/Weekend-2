@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.weekendproject2.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding">
+
+    <Button
+        android:id="@+id/btnGoToPDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:textSize="@dimen/large_text_size"
+        android:text="@string/view_pdf"/>
+
+    <Button
+        android:id="@+id/btnDialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:textSize="@dimen/large_text_size"
+        android:text="@string/open_dialog_fragment"/>
+
+    <Button
+        android:id="@+id/btnAlertDialog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:textSize="@dimen/large_text_size"
+        android:text="@string/open_alert"/>
+
+    <Button
+        android:id="@+id/btnAlertDialog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:textSize="@dimen/large_text_size"
+        android:text="@string/open_alert_custom"/>
+
+    <Button
+        android:id="@+id/btnAlertDialog3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:textSize="@dimen/large_text_size"
+        android:text="@string/open_alert_list" />
+
+    <Button
+        android:id="@+id/btnSendNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:textSize="@dimen/large_text_size"
+        android:text="@string/send_notification" />
+
+    <fragment
+        android:id="@+id/frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.admin.weekendproject2.SMSFragment" />
+
+    <Button
+        android:id="@+id/btnSendText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:textSize="@dimen/large_text_size"
+        android:text="@string/go_to_fragments" />
+
+</LinearLayout>

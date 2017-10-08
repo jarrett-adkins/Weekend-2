@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="toppings">
+        <item>@string/onions</item>
+        <item>@string/sausage</item>
+        <item>@string/beef</item>
+        <item>@string/garlic</item>
+    </array>
+</resources>
