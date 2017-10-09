@@ -172,7 +172,10 @@ public class MainActivity extends AppCompatActivity implements SMSFragment.OnFra
                 mNotificationManager.notify( 666, mBuilder.build());
 
                 break;
-            case R.id.btnSendText:
+            case R.id.btnGoToTimer:
+
+                Intent timerIntent = new Intent(this, TimerActivity.class);
+                startActivity( timerIntent );
 
                 break;
         }

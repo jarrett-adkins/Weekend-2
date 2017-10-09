@@ -64,11 +64,11 @@
         android:name="com.example.admin.weekendproject2.SMSFragment" />
 
     <Button
-        android:id="@+id/btnSendText"
+        android:id="@+id/btnGoToTimer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="buttonPressed"
         android:textSize="@dimen/large_text_size"
-        android:text="@string/go_to_fragments" />
+        android:text="@string/go_to_fragment" />
 
 </LinearLayout>
